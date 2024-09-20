@@ -16,9 +16,9 @@ os.environ['HTTPS_PROXY'] = proxy_url
 
 
 # Set up API keys (ensure these are set securely)
-os.environ['PINECONE_API_KEY'] = "fa6ac8c5-59a4-4499-be3c-8fd306479607"
-os.environ['GROQ_API_KEY'] = "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"
-os.environ['OPENAI_API_KEY'] = "sk-x_ks7fHGew5kdHfFFR8mJWceEc3Ml8TmwjW87DamZoT3BlbkFJYvlFAjcRQrdbxSRqf4qllc-qJyYp1BO2KrN3L21msA"
+os.environ['PINECONE_API_KEY'] = ""
+os.environ['GROQ_API_KEY'] = ""
+os.environ['OPENAI_API_KEY'] = ""
 
 # Initialize clients
 groq_client = Groq(api_key=os.environ["GROQ_API_KEY"])

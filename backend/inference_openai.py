@@ -9,8 +9,8 @@ from langchain.chains import RetrievalQA
 import os
 import glob
 
-os.environ['PINECONE_API_KEY'] = "fa6ac8c5-59a4-4499-be3c-8fd306479607"
-os.environ['OPENAI_API_KEY'] = "sk-x_ks7fHGew5kdHfFFR8mJWceEc3Ml8TmwjW87DamZoT3BlbkFJYvlFAjcRQrdbxSRqf4qllc-qJyYp1BO2KrN3L21msA"
+os.environ['PINECONE_API_KEY'] = ""
+os.environ['OPENAI_API_KEY'] = ""
 
 embeddings = OpenAIEmbeddings(model='text-embedding-3-large')
 index_name = "lono"
